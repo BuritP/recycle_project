@@ -98,7 +98,7 @@ class _PP_addWidgetState extends State<PP_addWidget> {
                         padding: EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
                         child: Image.asset(
                           //ใส่รูปสัญลักษณ์
-                          'assets/images/pp.png',
+                          'assets/image/pp.png',
                           width: 120,
                           height: 120,
                           fit: BoxFit.cover,

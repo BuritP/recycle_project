@@ -98,7 +98,7 @@ class _LDPE_addWidgetState extends State<LDPE_addWidget> {
                         padding: EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
                         child: Image.asset(
                           //ใส่รูปสัญลักษณ์
-                          'assets/images/ldpe.png',
+                          'assets/image/ldpe.png',
                           width: 120,
                           height: 120,
                           fit: BoxFit.cover,

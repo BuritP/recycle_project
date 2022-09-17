@@ -26,7 +26,7 @@ class _RewardWidgetState extends State<RewardWidget> {
                   image: DecorationImage(
                     fit: BoxFit.cover,
                     image: Image.asset(
-                      'assets/images/image-from-rawpixel-id-2758016-jpeg.jpg',
+                      'assets/image/image-from-rawpixel-id-2758016-jpeg.jpg',
                     ).image,
                   ),
                 ),
@@ -38,7 +38,7 @@ class _RewardWidgetState extends State<RewardWidget> {
                       child: Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(0, 150, 0, 0),
                         child: Image.asset(
-                          'assets/images/check.png',
+                          'assets/image/check.png',
                           width: 150,
                           height: 150,
                           fit: BoxFit.cover,
@@ -112,7 +112,7 @@ class _RewardWidgetState extends State<RewardWidget> {
                                 mainAxisAlignment: MainAxisAlignment.start,
                                 children: [
                                   Image.asset(
-                                    'assets/images/token.png',
+                                    'assets/image/token.png',
                                     width: 35,
                                     height: 35,
                                     fit: BoxFit.cover,
@@ -140,7 +140,7 @@ class _RewardWidgetState extends State<RewardWidget> {
                                   mainAxisSize: MainAxisSize.max,
                                   children: [
                                     Image.asset(
-                                      'assets/images/exp2.png',
+                                      'assets/image/exp2.png',
                                       width: 35,
                                       height: 35,
                                       fit: BoxFit.cover,

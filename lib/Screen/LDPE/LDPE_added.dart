@@ -70,7 +70,7 @@ class _LDPE_addedWidgetState extends State<LDPE_addedWidget> {
                         padding: EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
                         child: Image.asset(
                           //ใส่รูปสัญลักษณ์
-                          'assets/images/ldpe.png',
+                          'assets/image/ldpe.png',
                           width: 120,
                           height: 120,
                           fit: BoxFit.cover,
@@ -130,7 +130,7 @@ class _LDPE_addedWidgetState extends State<LDPE_addedWidget> {
                         image: DecorationImage(
                           fit: BoxFit.cover,
                           image: Image.asset(
-                            'assets/images/image-from-rawpixel-id-6587639-png.png',
+                            'assets/image/image-from-rawpixel-id-6587639-png.png',
                           ).image,
                         ),
                         // boxShadow: [

@@ -52,7 +52,7 @@ class _PP_detailWidgetState extends State<PP_detailWidget> {
                     padding: EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
                     child: Image.asset(
                       //เพิ่มรูปภาพสัญลักษณ์
-                      'assets/images/pp.png',
+                      'assets/image/pp.png',
                       width: 120,
                       height: 120,
                       fit: BoxFit.cover,
@@ -112,7 +112,7 @@ class _PP_detailWidgetState extends State<PP_detailWidget> {
                           ),
                           child: Image.asset(
                             //เพิ่มรูปภาพขวดน้ำ1
-                            'assets/images/pp2_(1).jpg',
+                            'assets/image/pp2_(1).jpg',
                           ),
                         ),
                         Padding(
@@ -127,7 +127,7 @@ class _PP_detailWidgetState extends State<PP_detailWidget> {
                             ),
                             child: Image.asset(
                               //ใส่รูปขวดน้ำ2
-                              'assets/images/pp3_(1).jpg',
+                              'assets/image/pp3_(1).jpg',
                             ),
                           ),
                         ),
