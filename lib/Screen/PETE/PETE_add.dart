@@ -98,7 +98,7 @@ class _PETE_addWidgetState extends State<PETE_addWidget> {
                         padding: EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
                         child: Image.asset(
                           //ใส่รูปสัญลักษณ์
-                          'assets/images/pete.png',
+                          'assets/image/pete.png',
                           width: 120,
                           height: 120,
                           fit: BoxFit.cover,

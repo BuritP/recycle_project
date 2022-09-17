@@ -51,7 +51,7 @@ class _PETE_detailWidgetState extends State<PETE_detailWidget> {
                     padding: EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
                     child: Image.asset(
                       //เพิ่มรูปภาพสัญลักษณ์
-                      'assets/images/pete.png',
+                      'assets/image/pete.png',
                       width: 120,
                       height: 120,
                       fit: BoxFit.cover,
@@ -111,7 +111,7 @@ class _PETE_detailWidgetState extends State<PETE_detailWidget> {
                           ),
                           child: Image.asset(
                             //เพิ่มรูปภาพขวดน้ำ1
-                            'assets/images/pete1_(1).jpg',
+                            'assets/image/pete1_(1).jpg',
                           ),
                         ),
                         Padding(
@@ -126,7 +126,7 @@ class _PETE_detailWidgetState extends State<PETE_detailWidget> {
                             ),
                             child: Image.asset(
                               //ใส่รูปขวดน้ำ2
-                              'assets/images/pete2_(1).jpg',
+                              'assets/image/pete2_(1).jpg',
                             ),
                           ),
                         ),
@@ -140,7 +140,7 @@ class _PETE_detailWidgetState extends State<PETE_detailWidget> {
                           ),
                           child: Image.asset(
                             //ใสรูปขวดน้ำ3
-                            'assets/images/pete3_(1).jpg',
+                            'assets/image/pete3_(1).jpg',
                           ),
                         ),
                       ],

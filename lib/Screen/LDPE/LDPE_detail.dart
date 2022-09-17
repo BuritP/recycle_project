@@ -52,7 +52,7 @@ class _LDPE_detailWidgetState extends State<LDPE_detailWidget> {
                     padding: EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
                     child: Image.asset(
                       //เพิ่มรูปภาพสัญลักษณ์
-                      'assets/images/ldpe.png',
+                      'assets/image/ldpe.png',
                       width: 120,
                       height: 120,
                       fit: BoxFit.cover,
@@ -112,7 +112,7 @@ class _LDPE_detailWidgetState extends State<LDPE_detailWidget> {
                           ),
                           child: Image.asset(
                             //เพิ่มรูปภาพขวดน้ำ1
-                            'assets/images/ldpe1_(1).jpg',
+                            'assets/image/ldpe1_(1).jpg',
                           ),
                         ),
                         Padding(
@@ -127,7 +127,7 @@ class _LDPE_detailWidgetState extends State<LDPE_detailWidget> {
                             ),
                             child: Image.asset(
                               //ใส่รูปขวดน้ำ2
-                              'assets/images/ldpe2_(1).jpg',
+                              'assets/image/ldpe2_(1).jpg',
                             ),
                           ),
                         ),
@@ -141,7 +141,7 @@ class _LDPE_detailWidgetState extends State<LDPE_detailWidget> {
                           ),
                           child: Image.asset(
                             //ใสรูปขวดน้ำ3
-                            'assets/images/ldpe3_(1).jpg',
+                            'assets/image/ldpe3_(1).jpg',
                           ),
                         ),
                       ],

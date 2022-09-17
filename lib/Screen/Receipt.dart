@@ -46,6 +46,7 @@ class _ReceiptState extends State<Receipt> {
         centerTitle: true,
         elevation: 2,
       ),
+//---------------------------------------------------------------------------------------------------------
       body: SafeArea(
         child: GestureDetector(
           onTap: (() => FocusScope.of(context).unfocus()),
@@ -55,13 +56,15 @@ class _ReceiptState extends State<Receipt> {
                 width: MediaQuery.of(context).size.width,
                 height: MediaQuery.of(context).size.height * 0.9,
                 decoration: BoxDecoration(
+                  //รูปพื้นหลัง
                   image: DecorationImage(
                     fit: BoxFit.cover,
                     image: Image.asset(
-                      'assets/images/image-from-rawpixel-id-2758016-jpeg.jpg',
+                      'assets/image/image-from-rawpixel-id-2758016-jpeg.jpg',
                     ).image,
                   ),
                 ),
+//---------------------------------------------------------------------------------------------------------
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
                   children: [
@@ -89,6 +92,7 @@ class _ReceiptState extends State<Receipt> {
                                 fit: BoxFit.cover,
                               ),
                             ),
+//---------------------------------------------------------------------------------------------------------
                             Padding(
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(15, 0, 0, 0),
@@ -125,6 +129,7 @@ class _ReceiptState extends State<Receipt> {
                                       ),
                                     ],
                                   ),
+//---------------------------------------------------------------------------------------------------------
                                   Row(
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
@@ -173,6 +178,7 @@ class _ReceiptState extends State<Receipt> {
                         ),
                       ),
                     ),
+//---------------------------------------------------------------------------------------------------------
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
                       child: Container(
@@ -202,7 +208,7 @@ class _ReceiptState extends State<Receipt> {
                                         image: DecorationImage(
                                           fit: BoxFit.cover,
                                           image: Image.asset(
-                                            'assets/images/token.png',
+                                            'assets/image/token.png', //รูปโทเคน
                                           ).image,
                                         ),
                                       ),
@@ -221,7 +227,7 @@ class _ReceiptState extends State<Receipt> {
                                             MainAxisAlignment.center,
                                         children: [
                                           Text(
-                                            '52',
+                                            '52', //จำนวนที่ได้รับ
                                             style: TextStyle(
                                                 fontWeight: FontWeight.w500),
                                           ),
@@ -232,6 +238,7 @@ class _ReceiptState extends State<Receipt> {
                                 ],
                               ),
                             ),
+//---------------------------------------------------------------------------------------------------------
                             Padding(
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(0, 25, 0, 15),
@@ -246,13 +253,14 @@ class _ReceiptState extends State<Receipt> {
                                       height: 40,
                                       decoration: BoxDecoration(),
                                       child: Image.asset(
-                                        'assets/images/exp2.png',
+                                        'assets/image/exp2.png', //รูปexp
                                         width: 100,
                                         height: 100,
                                         fit: BoxFit.cover,
                                       ),
                                     ),
                                   ),
+//---------------------------------------------------------------------------------------------------------
                                   Padding(
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         120, 0, 0, 0),
@@ -266,7 +274,7 @@ class _ReceiptState extends State<Receipt> {
                                             MainAxisAlignment.center,
                                         children: [
                                           Text(
-                                            '321',
+                                            '321', // จำนวนexpที่ได้รับ
                                             style: TextStyle(
                                                 fontWeight: FontWeight.w500),
                                           ),
@@ -277,6 +285,7 @@ class _ReceiptState extends State<Receipt> {
                                 ],
                               ),
                             ),
+//---------------------------------------------------------------------------------------------------------
                             Padding(
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(15, 0, 0, 0),
@@ -314,7 +323,7 @@ class _ReceiptState extends State<Receipt> {
                                         image: DecorationImage(
                                           fit: BoxFit.cover,
                                           image: Image.asset(
-                                            'assets/images/token.png',
+                                            'assets/image/token.png',
                                           ).image,
                                         ),
                                       ),
@@ -330,7 +339,7 @@ class _ReceiptState extends State<Receipt> {
                                           MainAxisAlignment.center,
                                       children: [
                                         Text(
-                                          '2',
+                                          '2', //เหรียญโบนัส
                                         ),
                                       ],
                                     ),
@@ -338,6 +347,7 @@ class _ReceiptState extends State<Receipt> {
                                 ],
                               ),
                             ),
+//---------------------------------------------------------------------------------------------------------
                             Divider(
                               thickness: 3,
                               color: Color(0x3B020407),
@@ -367,7 +377,7 @@ class _ReceiptState extends State<Receipt> {
                                         image: DecorationImage(
                                           fit: BoxFit.cover,
                                           image: Image.asset(
-                                            'assets/images/token.png',
+                                            'assets/image/token.png',
                                           ).image,
                                         ),
                                       ),
@@ -404,7 +414,7 @@ class _ReceiptState extends State<Receipt> {
                                         image: DecorationImage(
                                           fit: BoxFit.cover,
                                           image: Image.asset(
-                                            'assets/images/exp2.png',
+                                            'assets/image/exp2.png',
                                           ).image,
                                         ),
                                       ),
@@ -434,6 +444,7 @@ class _ReceiptState extends State<Receipt> {
                         ),
                       ),
                     ),
+
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(0, 45, 0, 0),
                       child: ElevatedButton(
